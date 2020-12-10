@@ -6,8 +6,10 @@ import Clock from './clock';
 function Time() {
     
     return (
-        
-        <Clock date={new Date()} />
+
+        <>
+            <Clock />
+        </>
     )
    
 }
